@@ -6,8 +6,9 @@
     <SharedGUID>ad133c9e-a9a1-4dbc-bd93-7149d32cb98a</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Language</Import_RootNamespace>
+    <Import_RootNamespace>SMLHelper</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Language.cs" />
   </ItemGroup>
 </Project>
